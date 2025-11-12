@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import DiplayHome from "./DiplayHome";
 import DisplayAlbum from "./DisplayAlbum";
-import FocusInputExample from "./FocusInputExample";
 import { albumsData } from "../assets/assets";
 
 function Display() {
@@ -30,7 +29,6 @@ function Display() {
       <Routes>
         <Route path="/" element={<DiplayHome />} />
         <Route path="/album/:id" element={<DisplayAlbum />} />
-        <Route path="/test" element={<FocusInputExample />} />
       </Routes>
     </div>
   );
