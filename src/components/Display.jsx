@@ -25,7 +25,7 @@ function Display() {
 
 
   return (
-    <div ref={refDisplay} className="w-full m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[75] lg:ml-0">
+    <div ref={refDisplay}     className="w-full lg:w-3/4 m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto min-h-screen">
       <Routes>
         <Route path="/" element={<DiplayHome />} />
         <Route path="/album/:id" element={<DisplayAlbum />} />
